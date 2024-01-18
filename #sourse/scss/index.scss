@@ -1,0 +1,23 @@
+@use 'sass:math';
+//^^^
+/* -- HERE I CAN CONNECT MY FONTS -- */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+@import 'fonts';
+$montReg: 'Montserrat', sans-serif;
+$montBold: 'Montserrat SemiBold', sans-serif;
+$brice: "Brice";
+//^^^
+/* -- RESET STYLES -- */
+@import 'reset.scss';
+/* -- MIXINS -- */
+@import 'mixins.scss';
+/* -- COMMON STYLES -- */
+@import 'common.scss';
+/* -- HEADER STYLES -- */
+@import 'header.scss';
+/* -- FOOTER STYLES -- */
+@import 'footer.scss';
+/* -- MAIN PAGE STYLES -- */
+@import 'main.scss';
+/* -- NEXT PAGES STYLES -- */
+/* -- NEXT PAGES STYLES -- */
